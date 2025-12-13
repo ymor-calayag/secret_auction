@@ -1,6 +1,4 @@
 auction_bids = {}
-highest_bid = 0
-highest_bidder = ""
 
 while True:
     user_name = input("Participant name: ")
