@@ -1,3 +1,7 @@
+from secret_auction_art import logo
+
+print(logo)
+
 auction_bids = {}
 
 while True:
@@ -9,7 +13,7 @@ while True:
     
     if add_bidders == "no":
         top_bidder = max(auction_bids, key=auction_bids.get)
-        print(f"Highest bidder is {top_bidder} with a bid of ${auction_bids[top_bidder]}.")
+        print(f"\nHighest bidder is {top_bidder} with a bid of ${auction_bids[top_bidder]}.\n")
         break
     else:
         print("\n" * 100)
