@@ -26,6 +26,6 @@ This project simulates a silent auction where multiple users enter their names a
 + The program uses a dictionary to store bidder names as keys and bid amounts as values.
 + After each bid, the screen is cleared (simulated by printing multiple newlines) to hide previous inputs.
 + The program loops until no more bidders remain.
-+ It then uses python ```max()`` function with dictionary methods to find the highest bid and associated bidder.
++ It then uses python ```max()``` function with dictionary methods to find the highest bid and associated bidder.
 + The result is printed to the console.
 
